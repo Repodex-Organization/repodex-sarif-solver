@@ -10,4 +10,5 @@ inputs:
     default: '.github/workflows/codeql-analysis/results.sarif'
 runs:
   using: 'node12'
-  main: 'action.js'
+  main: 'dist/index.js'
+
